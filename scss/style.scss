@@ -113,6 +113,46 @@ $border-width: 2px;
     color: $primary;
 }
 
+.countdown-table {
+    width: auto;
+    /* Ajusta a largura da tabela conforme o conteúdo */
+    margin: 0 auto;
+    /* Centraliza a tabela na página */
+    background-color: transparent;
+    /* Deixe o fundo da tabela transparente */
+    font-size: 18px;
+    /* Ajusta o tamanho da fonte */
+    border-collapse: collapse;
+    /* Remove o espaçamento entre células */
+    border: none !important;
+    /* Remove as bordas da tabela */
+    border-top: none !important;
+}
+
+.countdown-table th,
+.countdown-table td,
+.countdown-table tr,
+.countdown-table tbody {
+    padding: 10px 20px;
+    /* Adiciona espaçamento nas células */
+    border: none !important;
+    /* Remove as bordas da tabela */
+    border-top: none !important;
+    font-weight: bold;
+    color: #fff;
+    /* Garante que o texto seja branco */
+}
+
+.countdown-table th {
+    
+    border: none !important;
+    /* Remove as bordas da tabela */
+    border-top: none !important;
+    text-transform: uppercase;
+    font-size: 20px;
+    /* Tamanho maior para os títulos */
+}
+
 @media (max-width: 991.98px) {
     .navbar-dark .navbar-nav .nav-link {
         padding: 10px 0;
@@ -261,7 +301,7 @@ $border-width: 2px;
         margin-left: -1px;
         background: $primary;
     }
-    
+
     .timeline .row::before {
         content: "";
         position: absolute;
@@ -274,7 +314,7 @@ $border-width: 2px;
         transform: rotate(45deg);
         z-index: 1;
     }
-    
+
     .timeline .row::after {
         content: "\f004";
         font-family: "Font Awesome 5 Free";
@@ -351,5 +391,10 @@ $border-width: 2px;
 @media (max-width: 767.98px) {
     #event .border-right {
         border-right: none !important;
+    }
+
+    .countdown-table {
+        font-size: 16px;
+        /* Ajusta o tamanho da fonte em telas menores */
     }
 }
