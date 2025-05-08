@@ -4436,7 +4436,7 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
   color: #fff;
-  background-color: #4E342E;
+  background-color: #ffffff82;
 }
 
 .nav-fill>.nav-link,
@@ -10729,7 +10729,7 @@ a.text-dark:focus {
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #4E342E;
+  color: #ffffff82;
 }
 
 @media (max-width: 991.98px) {
